@@ -2,7 +2,7 @@
 
 #include "s_user.h"
 
-User *s_user_init(char *account_id, char *passwd) 
+User *s_user_init(const char *account_id, const char *passwd) 
 {
 	User *u = malloc(sizeof(User));
 	return u;
