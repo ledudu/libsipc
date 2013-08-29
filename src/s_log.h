@@ -1,5 +1,5 @@
-#ifndef _S_LOG_H_
-#define _S_LOG_H_ 
+#ifndef _S_LOG_H
+#define _S_LOG_H 
 
 void s_log_debug(const char *fmt, ...);
 void s_log_info(const char *fmt, ...);

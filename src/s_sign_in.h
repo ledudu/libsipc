@@ -1,5 +1,5 @@
-#ifndef _S_SIGN_IN_H_
-#define _S_SIGN_IN_H_ 
+#ifndef _S_SIGN_IN_H
+#define _S_SIGN_IN_H 
 
 #include "s_user.h"
 

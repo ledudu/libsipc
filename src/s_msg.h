@@ -1,5 +1,5 @@
-#ifndef _S_MESSAGE_H_
-#define _S_MESSAGE_H_ 
+#ifndef _S_MESSAGE_H
+#define _S_MESSAGE_H 
 
 #include "s_user.h"
 

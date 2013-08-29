@@ -1,5 +1,5 @@
-#ifndef _S_SYS_CONFIG_H_
-#define _S_SYS_CONFIG_H_ 
+#ifndef _S_SYS_CONFIG_H
+#define _S_SYS_CONFIG_H 
 
 struct _SysConfig {
 	char *sys_config_local_path;

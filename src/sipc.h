@@ -1,5 +1,5 @@
-#ifndef _SIPC_H_
-#define _SIPC_H_ 
+#ifndef _SIPC_H
+#define _SIPC_H
 
 #define SIPC_OK 0
 

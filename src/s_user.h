@@ -1,5 +1,5 @@
-#ifndef _S_USER_H_
-#define _S_USER_H_ 
+#ifndef _S_USER_H
+#define _S_USER_H 
 
 struct _User {
 	char *account_id;	
