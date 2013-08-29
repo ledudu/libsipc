@@ -15,7 +15,7 @@ int send_sms(const char *account_id,
 	const char *to_account_id, 
 	const char *msg)
 {
-	SysConfig *sc;
+	SysConfig *sys_config;
 	User *user;
 	int rc;
 
@@ -40,7 +40,7 @@ int send_sms(const char *account_id,
 		goto failed;
 	}
 
-	s_sys_config_free(user->sys_config);
+	s_sys_config_free(sys_config);
 	s_user_free(user);
 	return 0;
 

@@ -13,7 +13,7 @@
 
 
 #define URL_SYS_CONFIG "http://nav.fetion.com.cn/nav/getsystemconfig.aspx"
-#define DEBUG 1
+#define DEBUG 0
 
 
 char *expand_vars(const char *s)

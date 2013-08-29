@@ -7,8 +7,8 @@ struct _SysConfig {
 typedef struct _SysConfig SysConfig;
 
 SysConfig *s_sys_config_init(void);
-void s_update_sys_config(SysConfig *sc);
 void s_sys_config_free(SysConfig *sys_config);
 
+void s_update_sys_config(SysConfig *sc);
 
 #endif
