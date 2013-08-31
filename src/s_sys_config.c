@@ -59,6 +59,7 @@ static void s_load_config_from_local_init(SysConfig *sc)
 static int s_download_config_whole_from_srv(SysConfig *sc)
 {
 	FILE *fp;
+
         CURL *handle;
         CURLcode res;
 	struct curl_slist *slist = NULL;

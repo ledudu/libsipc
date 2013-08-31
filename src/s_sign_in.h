@@ -3,6 +3,6 @@
 
 #include "s_user.h"
 
-int s_sign_in(User *user);
+int s_sign_in(User *user, const char *uri);
 
 #endif
